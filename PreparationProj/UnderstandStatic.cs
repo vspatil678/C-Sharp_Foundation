@@ -51,7 +51,7 @@ namespace PreparationProj
 
     public class MainClass
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             UnderstandStatic.x = 20;
             UnderstandStatic.x = 30;
