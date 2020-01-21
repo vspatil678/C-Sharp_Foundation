@@ -66,7 +66,7 @@ namespace PreparationProj
      * have opposite meanings. The sealed modifier prevents a class from being inherited and 
      * the abstract modifier requires a class to be inherited.
      * an abstract class cannot be sealed or static 
-     * An abstract method is implicitly a virtual method.
+     * An abstract method is implicitly a virtual method. and cannot  be marked as virtual
      * Abstract method declarations are only permitted in abstract classes.
      * Because an abstract method declaration provides no actual implementation, there is no method body;
      * It is an error to use the abstract modifier on a static property.
@@ -78,5 +78,7 @@ namespace PreparationProj
      * 
      * whenever abstract class that extends or implements the interface it can implement the interface method
      * (without override keyword) or make it an abstract method
+     * 
+     * abstract methods cannot be private
      */
 }

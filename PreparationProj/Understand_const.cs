@@ -8,9 +8,15 @@ namespace PreparationProj
     {
         public const int x = 10;
         public const string name = "vinod";
-        
-        public static void Main(string[] args)
+
+        public Understand_const()
         {
+            // x = 20; error
+        }
+        public static void Main1(string[] args)
+        {
+            // x = 20; error
+
             // local variable
             const int asdf = 12;
             Console.WriteLine(asdf);
