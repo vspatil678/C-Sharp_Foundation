@@ -1,0 +1,15 @@
+﻿
+we have interface IprintTask Which contains bellow method
+  bool PrintContent(string content);
+        bool ScanContent(string content);
+        bool FaxContent(string content);
+        bool PhotoCopyContent(string content);
+
+
+        and we have printer class HpLaserJet which perform all the above task
+
+        Note: But problem is we have another printer CannonMG2470 will not perform some of the above task
+        Like CannonMG2470 will not perform Fax Functionality but IprintTask EnForceing this is the problem to CannonMG2470
+
+        To Avoid this we have to create Seperate Interface
+      

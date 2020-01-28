@@ -29,7 +29,7 @@ namespace PreparationProj
          * Constants can be numbers, Boolean values, strings, or a null reference.
          * Don’t create a constant to represent information that you expect to change at any time.
          * const and static cannot be used together
-         * 
+         * constant variables cannot be marked as static
          */
     }
 }

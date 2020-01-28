@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -14,7 +15,7 @@ namespace PreparationProj
         {
 
         }
-       
+
         public static int y;
        
         public static int  x = 10;
@@ -56,6 +57,7 @@ namespace PreparationProj
             UnderstandStatic.x = 20;
             UnderstandStatic.x = 30;
             UnderstandStatic.x = 40;
+            Console.WriteLine(UnderstandStatic.x + UnderstandStatic.x + UnderstandStatic.x); // 120
             Console.WriteLine(UnderstandStatic.x); // 40
 
             NonStaticClass.variable1 = 20;
@@ -64,8 +66,8 @@ namespace PreparationProj
             Console.WriteLine(NonStaticClass.variable1); // 40
 
             NonStaticClass n1 = new NonStaticClass();
-            
 
+            
             
         }
     }
@@ -89,3 +91,12 @@ namespace PreparationProj
  *  constant variables cannot be marked as static
  *  if class have static ctor and non static ctor - static ctor will execute first
  * */
+
+/*
+ * 
+ * No, You can't overload static constructor because.
+ * So you can not pass parameters in static constructor at run time that's why you can't overload it.
+
+
+ * */
+

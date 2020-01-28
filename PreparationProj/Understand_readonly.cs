@@ -22,7 +22,7 @@ namespace PreparationProj
 
         // You can assign a value to a readonly field only in the following contexts:
         // 1- When the variable is initialized in the declaration, for example:
-        public readonly int y = 5;
+        public  readonly int y = 5;
         
         // 2- In an instance constructor of the class that contains the instance field declaration.
         // 3- In the static constructor of the class that contains the static field declaration.
@@ -49,7 +49,7 @@ namespace PreparationProj
             x = p1; y = p2; z = p3;
         }
 
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             SampleClass sc = new SampleClass(11, 22, 33);
             Console.WriteLine($"x = {sc.x} y = { sc.y} z= {sc.z}");

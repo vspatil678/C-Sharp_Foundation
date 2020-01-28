@@ -2,9 +2,12 @@ const
 ---------
 1- A const field can only be initialized at the declaration of the field.
 2- while a const field is a compile-time constant
+3- constant variables cannot be marked as static
 
 readonly
 -----------
 1- A readonly field can be assigned multiple times in the field declaration and in any constructor.
 2- readonly fields can have different values depending on the constructor used.
 3- the readonly field can be used for runtime constants as in the following example
+
+https://www.c-sharpcorner.com/UploadFile/c210df/difference-between-const-readonly-and-static-readonly-in-C-Sharp/
