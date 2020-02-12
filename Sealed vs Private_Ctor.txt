@@ -1,0 +1,15 @@
+Sealed Class
+--------------------
+1 - prevents all kind of inheritance (reason for why singletone class should be sealed)
+
+
+
+
+
+private ctor
+---------------
+1- prevents external class inheritance
+2- nested class inheritance is possiable
+
+Note: if we are using sealed class then why we need private ctor in singletone class ?
+sealed will prevent inheritance but it will not use for instantiation (ctor is used for instantiation)
