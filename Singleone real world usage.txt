@@ -1,0 +1,7 @@
+1- Logging
+2 - Managing a connection or a pool of Connections to Database
+3- Printer spooling
+4 - File
+5 - Configuration
+6- Cache
+7 - session based Shopping cart

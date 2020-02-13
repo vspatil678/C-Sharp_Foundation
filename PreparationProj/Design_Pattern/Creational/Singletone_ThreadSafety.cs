@@ -16,7 +16,7 @@ namespace PreparationProj.Design_Pattern.Creational
             counter++;
             Console.WriteLine("counter value " + counter);
         }
-
+        // lazy initializaion
         private static Singletone_ThreadSafety instance = null;
 
         public static Singletone_ThreadSafety GetInstance()
@@ -67,7 +67,7 @@ namespace PreparationProj.Design_Pattern.Creational
 
     public class MainClassTs
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             // single threaded and sequential execution
             //PrintEmployeeDetails();

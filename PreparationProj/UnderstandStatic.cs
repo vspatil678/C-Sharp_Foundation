@@ -36,7 +36,7 @@ namespace PreparationProj
         }
     }
 
-    public class NonStaticClass
+    public class NonStaticClass : IDisposable 
     {
         public NonStaticClass()
         {
@@ -48,6 +48,11 @@ namespace PreparationProj
             Console.WriteLine("static ctor in non-static class "+ variable1);
         }
         public static int variable1;
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class MainClass
@@ -90,6 +95,8 @@ namespace PreparationProj
  *  and before the static constructor, if there is one, is called.
  *  constant variables cannot be marked as static
  *  if class have static ctor and non static ctor - static ctor will execute first
+ *  static class cannot implement interfaces
+ *  static class cannot derive from other class(only derive from object class)
  * */
 
 /*

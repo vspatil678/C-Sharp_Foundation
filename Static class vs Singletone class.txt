@@ -1,0 +1,22 @@
+static class
+---------------
+1 - static is akeyword
+2 - static class can contain only static members
+3 -static class cannot implement interfaces and it will not inherit from other classes
+(only inheriting from object class)
+4 - static class cannot be a base class and it will not inherit from other classes also
+5- static objects are created by compiler and stored on stack
+6 - static classes gives you static method
+7 - static class instances creation not possiable(only compiler will tc )
+
+singletone class
+-----------------
+1 - singletone is a design pattern
+2 - singletone is an object creational pattern with one instance of the class
+3 - singletone can impement interfaces, inherit from other classes and 
+it aligns with the oops concept
+4 - singletone objects can be passed as a reference
+5 - singletone supports object disposal
+6 - singletone objects are created by manually and stored in heap
+7 - Singletone objects can be cloned
+8 - singletone gives you object
