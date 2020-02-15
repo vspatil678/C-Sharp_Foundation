@@ -1,0 +1,13 @@
+﻿Task
+-------------
+0 - Task.Run() is used to run the methods asynchronouslly
+1 - Task will spread on multiple core (thats why we are using i3, i5, multicore processors)
+
+
+Thread
+--------------
+0 -  Parallel.Invoke() is used to run the methods/ actions Parallely
+1 - Threads will run on single core
+
+
+toDo: Complete understanding of task thread multithread with any project

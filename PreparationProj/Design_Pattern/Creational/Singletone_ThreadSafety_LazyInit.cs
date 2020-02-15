@@ -31,7 +31,7 @@ namespace PreparationProj.Design_Pattern.Creational
 
     public class MainClassLazy
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Parallel.Invoke(
                 () => PrintStudentDetails(),

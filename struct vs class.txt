@@ -1,0 +1,14 @@
+struct
+--------------
+0- structs are value type
+1 - structs are implicitly sealed, they cannot be inherited.
+2 - struct cant inherit from other struct/class, cant implement interface
+3 - object creation is not possible
+
+
+
+class
+-----------
+1 - classes are reference type
+2 - class can inherit from other class, it can be base for other class, it can implement interface
+3- we can create object
