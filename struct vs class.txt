@@ -2,13 +2,22 @@ struct
 --------------
 0- structs are value type
 1 - structs are implicitly sealed, they cannot be inherited.
-2 - struct cant inherit from other struct/class, cant implement interface
-3 - object creation is not possible
-
-
+2 - struct cant inherit from other struct/class, cant implement interface,  and it canot be a base of other class
+3 - structs cannot have a default constructor or a destructor
+4- Structs can be instantiated without using a new operator and stored in stack.
+5 - structs cannot be abstact type they are implicitly sealed
+6 - struct member cannot be protected or protected internals.
+7 - A struct can be used as a nullable type and can be assigned a null value.
+8- Each variable in struct contains its own copy of data(except in ref and out parameter variable) and any 
+operation on one variable can not effect another variable.
 
 class
 -----------
 1 - classes are reference type
 2 - class can inherit from other class, it can be base for other class, it can implement interface
-3- we can create object
+3- we can create object (stored in heap)
+4- Classes can contain constructor or destructor.
+5- The data member of a class can be protected.
+6- Function member of the class can be virtual or abstract.
+7- Two variable of class can contain the reference of the same object and any operation
+on one variable can affect another variable.

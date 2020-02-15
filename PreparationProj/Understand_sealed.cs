@@ -47,7 +47,7 @@ namespace PreparationProj
     //}
     class Understand_sealed
     {
-        public static void Main(string[] args)
+        public static void Main11(string[] args)
         {
             
         }
