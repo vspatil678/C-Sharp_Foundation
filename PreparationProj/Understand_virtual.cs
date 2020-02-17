@@ -68,7 +68,7 @@ namespace PreparationProj
             }
         }
 
-        static void Main()
+        static void Main1()
         {
             double r = 3.0, h = 5.0;
             Shape c = new Circle(r);

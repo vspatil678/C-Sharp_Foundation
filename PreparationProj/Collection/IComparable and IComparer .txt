@@ -1,0 +1,21 @@
+﻿the interfaces are similar (and have similar names), they serve different purposes.
+
+If you have an array of types (such as string or integer) that already support IComparer,
+you can sort that array without providing any explicit reference to IComparer. In that case, 
+the elements of the array are cast to the default implementation of IComparer (Comparer.Default) for you.
+
+ if you want to provide sorting or comparison capability for your custom objects, 
+ you must implement either or both of these interfaces.
+
+
+ IComparable
+ ---------------
+ int CompareTo(object? obj);
+ The CompareTo method from IComparable interface can sort on only one field at a time,
+ so sorting on different properties with it is not possible.
+
+ IComparer
+ -------------
+ int Compare(object? x, object? y);
+ IComparer interface provides Compare method that Compares two objects and returns a value indicating whether
+ one is less than, equal to, or greater than the other.
