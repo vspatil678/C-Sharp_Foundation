@@ -41,7 +41,7 @@ namespace PreparationProj.Collection
     }
     class Understand_IComparer
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             List<Employee> employees = new List<Employee>()
             {
