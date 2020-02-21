@@ -47,7 +47,7 @@ namespace PreparationProj.Collection
     public class Understand_IEnumerable
     {
 
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Person[] peopleArray = new Person[3]
         {
@@ -122,3 +122,6 @@ public class PeopleEnum : IEnumerator
  * Current property and MoveNext and Reset methods.
  * // When you implement IEnumerable, you must also implement IEnumerator.
  * */
+
+// reference
+// https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.8
