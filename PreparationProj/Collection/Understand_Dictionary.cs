@@ -6,7 +6,7 @@ namespace PreparationProj.Collection
 {
     class Understand_Dictionary
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Dictionary<string, string> dictDemo = new Dictionary<string, string>();
             try
