@@ -7,7 +7,7 @@ namespace PreparationProj.Logical_Programs
     class LogicsOnString
     {
 
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             string data = " The Traveller ";
             //  ReverseString(data);

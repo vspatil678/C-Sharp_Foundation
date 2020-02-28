@@ -1,0 +1,24 @@
+﻿Dictionary
+----------------------
+1 - key and value are same type
+2 - objects are iterated as KeyValuePair
+3 -  keys are unique value can be duplicate
+4 - you must specify key and value type
+5 - generic collection - System.Collections.Generic
+6 - data retrival is faster because no boxing/unboxing
+7 - to retrive key values KeyValuePair(class) is efficient
+8 - dictionary will throw exception if key dosent exist.
+9 - dictionary always maintain the order of stored values
+
+Hashtable
+----------------------
+1- key and value are same type or any type
+2- objects are iterated as DictionaryEntry
+3 -  keys are unique value can be duplicate
+4 - no need to specify key and value
+5- hashtable is non-generic collection - System.Collections
+6 - data retrival is slower than dictionary due to boxing/unboxing
+7 - to retrive key value pair DictionaryEntry(struct) is efficient way
+8 - hashtable will not throw exception if key dosent exist, it will return null
+9 - hashtable will not maintain the order of stored values --> we can see random output everytime(shuffled output)
+

@@ -129,6 +129,10 @@ namespace PreparationProj.Collection
             {
                 Console.WriteLine(item.Key + "    " + item.Value);
             }
+
+            // dictionary will throw exception if key dosent exist.
+            Console.WriteLine("--------- key not exist but checking ------");
+            Console.WriteLine(dictDemo["vinod"]);
             Console.ReadLine();
         }
     }
@@ -147,4 +151,6 @@ namespace PreparationProj.Collection
  *  use Keys property to get all Keys
  *  use Values property to get all values
  *  use Remove method to remove KeyValuePair object from dictionary
+ *  To iterate Dictionary - KeyValuePair<Tkey, Tvalue> is efficient
+ *  only same type key/value are used to store and key should be unique.
  * */
